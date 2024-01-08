@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up Form</title>
+  <link rel="stylesheet" href="signup-style.css">
+
+</head>
+<body>
+  <div class="container">
+    <div class="signup-form">
+      <h2 class="signup-heading">Sign Up</h2>
+      <form id="signupForm">
+        <div class="input-group">
+          <input type="text" id="fullname" placeholder="Full Name" required>
+        </div>
+        <div class="input-group">
+          <input type="text" id="email" placeholder="Email" required>
+        </div>
+        <div class="input-group">
+          <input type="password" id="password" placeholder="Password" required>
+          <!-- <span class="toggle-password" onclick="togglePasswordVisibility()">👁️</span> -->
+        </div>
+        <button type="submit">Sign Up</button>
+        <p>Already have an account? <a href="signin.html">Sign In</a></p>
+      </form>
+    </div>
+  </div>
+
+  <script src="signup-script.js"></script>
+</body>
+</html>
